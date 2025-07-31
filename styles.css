@@ -5,6 +5,11 @@
   src: url('/portfolio/fonts/Quicksand-Regular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Directo';
+  src: url('/portfolio/fonts/Directo-Medium.woff2') format('woff2');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', times-new-roman;
+  font-family: 'Directo', times-new-roman;
   background-color: #111;
   color: #eee;
   line-height: 1.6;
